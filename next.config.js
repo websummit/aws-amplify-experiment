@@ -35,9 +35,6 @@ const nextConfig = {
   },
   optimizeFonts: true,
   output: 'standalone',
-  sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
-  },
   trailingSlash: true,
 }
 
