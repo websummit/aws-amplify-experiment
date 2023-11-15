@@ -35,6 +35,5 @@ export async function getStaticProps() {
     props: {
       generatedAt: new Date().toString(),
     },
-    revalidate: 60
   }
 }
