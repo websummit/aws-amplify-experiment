@@ -28,7 +28,7 @@ export default function Page(props: any) {
 export async function getStaticPaths() {
   return {
     paths: ['/page1', '/page2'],
-    fallback: false
+    fallback: 'blocking'
   }
 }
 
