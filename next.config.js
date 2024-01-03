@@ -14,6 +14,10 @@ const headers = [
     key: 'X-XSS-Protection',
     value: '1; mode=block',
   },
+  {
+    key: 'CDN-Cache-Control',
+    value: 's-maxage=600, stale-if-error=31536000, stale-while-revalidate=31536000',
+  },
 ]
 
 if (process.env.ENV !== 'production') {
