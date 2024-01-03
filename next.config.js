@@ -24,7 +24,7 @@ if (process.env.ENV !== 'production') {
   headers.push({
     key: 'X-Robots-Tag',
     value: 'noindex',
-  })
+  }) 
 }
 
 
